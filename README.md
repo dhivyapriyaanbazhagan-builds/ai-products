@@ -35,3 +35,22 @@ Example questions:
 - “Which category has the highest average profit?”
 
 The app uses Google Gemini to interpret structured data and provide analytical responses.
+
+### Technologies Used
+
+- **Python** – Core application logic
+- **Streamlit** – Lightweight web UI framework
+- **pandas** – Data processing and Excel handling
+- **openpyxl** – Excel file engine
+- **Google Gemini API** – LLM reasoning engine
+- **python-dotenv** – Secure API key management
+
+---
+
+## ⚙️ How It Works
+
+1. User uploads an Excel file
+2. pandas reads and summarizes the dataset
+3. A snippet of the dataset is passed to Gemini
+4. Gemini generates a structured analytical response
+5. The result is displayed in the UI
