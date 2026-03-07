@@ -34,4 +34,4 @@ Example questions:
 - “What trends do you see in monthly sales?”
 - “Which category has the highest average profit?”
 
-The app uses Google Gemini to interpret structured data and provide analytical responses.# ai-products
+The app uses Google Gemini to interpret structured data and provide analytical responses.
