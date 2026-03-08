@@ -54,3 +54,25 @@ The app uses Google Gemini to interpret structured data and provide analytical r
 3. A snippet of the dataset is passed to Gemini
 4. Gemini generates a structured analytical response
 5. The result is displayed in the UI
+
+### 1. Clone the repository
+
+git clone https://github.com/dhivyapriyaanbazhagan-builds/ai-data-support-agent.git
+cd ai-data-support-agent
+
+### 2. Create virtual environment
+
+python -m venv venv
+venv\Scripts\activate
+
+### 3. Install dependencies
+
+pip install -r requirements.txt
+
+### 4. Add Gemini API key
+
+Create a `.env` file in the root directory:
+
+GEMINI_API_KEY=your_api_key_here
+
+### 5. Run the app
